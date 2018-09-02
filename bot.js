@@ -1,3 +1,6 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
 client.on('message', message => {
     if(message.content === 'باك'){
         message.channel.send('وُلُِڪم منوُرٍ ,ء')
