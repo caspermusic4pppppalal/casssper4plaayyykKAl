@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('message', message => {
-    if(message.content === 'باك'){
-        message.channel.send('وُلُِڪم منوُرٍ ,ء')
-    }
+client.on('message', msg => {
+  if (msg.content === 'باك') {
+    msg.reply('** ۗ وّلّلّّكّكّممّّ نۨــۏڕٺ ۛ ּيۧ مۭــڗ ۛ ּ، ۛ ּمۭــنۨ ۖ ڙمۭــٰا̍نۨ ̨؏ــڼۨــک ۗ :rose::wave:**');
+  }
 });
 
 client.on('message', message => {
