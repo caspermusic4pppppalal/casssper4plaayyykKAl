@@ -8,7 +8,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'باك') {
+  if (msg.content === 'برب') {
     msg.reply('**تيت ي حٍلُِوُ لُِآ تتأخـرٍ ,ء **');
   }
 });
