@@ -7,10 +7,10 @@ client.on('message', msg => {
   }
 });
 
-client.on('message', message => {
-    if(message.content === 'برب'){
-        message.channel.send('تيت ي حٍلُِوُ لُِآ تتأخـرٍ ,ء')
-    }
+client.on('message', msg => {
+  if (msg.content === 'باك') {
+    msg.reply('**تيت ي حٍلُِوُ لُِآ تتأخـرٍ ,ء **');
+  }
 });
 
 
