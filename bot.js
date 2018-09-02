@@ -13,11 +13,6 @@ client.on('message', message => {
     }
 });
 
-client.on('message', message => {
-    if(message.content === 'باك'){
-        message.channel.send('وُلُِڪم منوُرٍ ,ء')
-    }
-});
 
 client.on('message', message => {
     if(message.content === 'الشعار'){
